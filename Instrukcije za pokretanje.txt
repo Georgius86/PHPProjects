@@ -1,0 +1,21 @@
+1. Pokrenuti MySQL lokalno na raèunalu (XAMPP, WAMP, LAMP ...)
+2. Pokrenuti Apache server lokalno preko XAMPP, WAMP, LAMP ...
+2. preko Command Prompta ili terminala pronaæi mysql bin folder i ukucati:
+npr.
+
+c:\xampp\mysql\bin>mysql -uroot
+
+mysql> grant all privileges on *.* to 'edunova'@'localhost' identified by 'edunova';
+
+mysql> exit
+
+3. Logiranje na bazu i ubacivanje podataka:
+npr.
+
+c:\xampp\mysql\bin\mysql -uedunova -pedunova --default_character_set=utf8 < c:\Users\George\Documents\NetBeansProjects\RatnaPovijest\pov.sql
+
+gdje je bio.sql nasa baza podataka u projektu...
+
+4. Nakon toga mozete pristupiti aplikaciji ako ukucate //localhost
+
+5. Eventualno se aplikacija može prebaciti na neki besplatni web server preko FTP klijenta i pogledati preko web adrese koja joj se dodjeli
