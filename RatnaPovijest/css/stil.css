@@ -1,0 +1,188 @@
+
+.tijelo{
+	margin-top:20px;
+    color: #400000;
+    font-style: bold;
+    text-align: justify;
+    
+}
+
+.logo{
+	margin-top:5px;
+	margin-bottom:5px;
+	border-color: #400000;
+}
+
+h1{
+	
+	font-family: "Book Antiqua";
+	color:#400000;
+	margin-top:30px;
+	margin-bottom:30px;
+	font-size: 3.1em;
+	text-align:center;
+	
+
+	
+}
+
+h2{
+	
+	font-family: "Book Antiqua" ;
+	color:#FFFFFF;
+	margin-top:30px;
+	margin-bottom:30px;
+	font-size: 2em;
+	text-align:justify;
+	position: relative;
+	
+	
+}
+.okolo{
+	background-image: url("../img/big.jpg");
+	height:250px;
+	width:970px;
+    background-size: cover;
+    background-position:top;
+	border:0px;
+	border-style: solid;
+	border-left-color: #400000;
+	border-right-color: #400000;
+    border-bottom-color: #400000;
+	border-top-color: #FFFFFF;
+	
+}
+	 
+.top-bar{
+	background: #400000;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button){
+	background: #400000;
+	font-weight: bold; 
+	font-size: 13px;
+}
+
+img.mapa{
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 20px;
+	max-height: 40%;
+	max-width: 40%;
+	display: block;
+	float:right;
+	margin: 10px;
+		
+}
+
+.desno{
+	background-color: #400000; 
+	float: right;	
+	font-weight: bold; 	
+}
+
+.desnod{
+	background-color: #400000; 
+	float: right;
+	margin-right: 15px;
+	font-weight: bold; 
+	font-size: 12px;
+}
+
+.lijevo{
+	background-color: #400000; 
+	float: left;
+	font-weight: bold; 	
+}
+.opissrednje.elementlijevo{
+	float: left;
+}
+
+img.slika{
+	margin-left:auto;
+	margin-right:auto;	
+	margin-bottom: 20px;
+	max-height: 70%;
+	max-width: 70%;
+	display: block;
+}
+
+img.slika1{
+	margin-left:auto;
+	margin-right:auto;	
+	margin-bottom: 20px;
+	max-height: 70%;
+	max-width: 70%;
+	display: block;
+}
+
+body{
+	background:#CF9F70;
+	z-index: -999999;
+	background-image: url("../img/ornament.png"), url("../img/ornament.png");
+    background-position: left top, right top;
+    background-repeat: repeat-y, repeat-y;
+}
+
+p.tekstlijevo{
+	text-align: left;
+	color: #400000; 
+}
+
+p.poruka{
+	color:red;
+	font-size:20px;
+	font-style: bold;
+	text-align: right;
+}
+.panel{
+	color:#400000; 
+	font-size: 18px;
+	font-style: italic;
+	border-style: solid;
+	border-color: #400000; 
+}
+
+fieldset{
+	border-style: solid;
+	border-color: #400000; 
+	background:#FFFFFF;
+}
+
+hr{
+	border-style: solid;
+	border-color: #400000; 
+}
+
+.sredina{
+	text-align: center;
+}
+
+
+.tablica{
+   background: #f2f2f2;
+   border-style:none;
+   text-align: justify;  
+   color: #400000;
+}
+
+
+.tablicaa{
+   background: #f2f2f2;
+   border-style:none;
+   font-size:18px;
+   color: #400000;
+   text-align: justify;  
+
+}
+
+.auto{
+	 max-width: 200px;
+    width: 100%;
+    height: auto;
+}
+
+p.tekstdesno{
+	text-align: right;
+	color: #400000; 
+}

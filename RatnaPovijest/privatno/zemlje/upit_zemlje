@@ -1,0 +1,13 @@
+select 
+						a.sifra,
+						a.naziv as nazivZemlje,
+						concat(b.ime, ' ', b.prezime) as vladar,
+						c.naziv as nazivTitule						
+						from zemlje a 
+						inner join osobe b on a.vladar=b.sifra
+						inner join titule c on b.titula=c.sifra			
+						group by 
+						a.sifra,
+						a.naziv,
+                        c.naziv,
+						concat(b.ime, ' ', b.prezime) where nazivZemlje like :uvjet limit; 
